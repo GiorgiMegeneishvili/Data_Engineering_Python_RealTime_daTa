@@ -6,6 +6,8 @@
 This project demonstrates a real-time data engineering pipeline built with Python.  
 It simulates streaming data ingestion, processing, and storage using modern data engineering tools and practices.
 
+Data from CoinGecko api and send to kafka and Pyspark and PostGresql
+
 The pipeline is designed to handle real-time event data and process it efficiently for downstream analytics.
 
 ---
@@ -44,3 +46,40 @@ The pipeline is designed to handle real-time event data and process it efficient
 pip install -r requirements.txt
 
 
+
+
+
+2. Start Kafka (if running locally)
+
+Make sure Kafka and Zookeeper are running.
+
+
+python producer/main.py
+
+
+🔄 Data Flow
+Python producer generates real-time events
+Events are serialized into JSON format
+Kafka topic receives streaming data
+Consumer processes and transforms data
+Cleaned data is stored in database or file system
+📊 Features
+Real-time data streaming
+Event-based architecture
+Scalable Kafka-based ingestion
+Modular Python code structure
+Schema-driven event design
+📌 Future Improvements
+Docker support for full environment setup
+Apache Spark Streaming integration
+Monitoring with Prometheus / Grafana
+Airflow orchestration
+Cloud deployment (AWS / Azure)
+👨‍💻 Author
+
+Giorgi Megeneishvili
+Data Engineer | ETL / Real-Time Systems | Kafka | Python | SQL
+
+⭐ Support
+
+If you like this project, give it a ⭐ on GitHub and feel free to contribute!
