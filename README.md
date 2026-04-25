@@ -1,5 +1,5 @@
 # Data_Engineering_Python_RealTime_daTa
-Diagram_CoinRealTimeData.png
+[Diagram_CoinRealTimeData.png](https://github.com/GiorgiMegeneishvili/Data_Engineering_Python_RealTime_daTa/blob/1538770ba16dcd94da81b0824c9b2868dc41ff04/Diagram_CoinRealTimeData.png)
 # 🚀 Real-Time Data Engineering Pipeline (Python + Kafka)
 
 ## 📌 Project Overview
