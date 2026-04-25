@@ -28,33 +28,11 @@ The pipeline is designed to handle real-time event data and process it efficient
 
 - Python 🐍  
 - Apache Kafka 📡  
-- Pandas  
+- Apache Pyspark  
 - SQL / Database (PostgreSQL / MSSQL depending on config)  
 - JSON event streaming  
-- (Optional) Spark / Airflow extensions  
-
----
-
-## 📂 Project Structure
-
----
-
-## 🚀 How to Run
-
-### 1. Install dependencies
-```bash
-pip install -r requirements.txt
 
 
-
-
-
-2. Start Kafka (if running locally)
-
-Make sure Kafka and Zookeeper are running.
-
-
-python producer/main.py
 
 
 🔄 Data Flow
