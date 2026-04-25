@@ -1,5 +1,5 @@
 # Data_Engineering_Python_RealTime_daTa
-![Architecture](https://raw.githubusercontent.com/GiorgiMegeneishvili/REPO_NAME/main/docs/architecture.png)
+Diagram_CoinRealTimeData.png
 # 🚀 Real-Time Data Engineering Pipeline (Python + Kafka)
 
 ## 📌 Project Overview
